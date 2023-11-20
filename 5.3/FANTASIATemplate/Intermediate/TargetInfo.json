@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "FANTASIATemplate",
+			"Path": "..\\Source\\FANTASIATemplate.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "FANTASIATemplateEditor",
+			"Path": "..\\Source\\FANTASIATemplateEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

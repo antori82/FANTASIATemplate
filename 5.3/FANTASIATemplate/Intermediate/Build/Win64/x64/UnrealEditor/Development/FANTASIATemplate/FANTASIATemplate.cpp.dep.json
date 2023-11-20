@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\git\\fantasiatemplate\\5.3\\fantasiatemplate\\source\\fantasiatemplate\\fantasiatemplate.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\git\\fantasiatemplate\\5.3\\fantasiatemplate\\intermediate\\build\\win64\\x64\\fantasiatemplateeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "d:\\git\\fantasiatemplate\\5.3\\fantasiatemplate\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\fantasiatemplate\\definitions.fantasiatemplate.h",
+            "d:\\git\\fantasiatemplate\\5.3\\fantasiatemplate\\source\\fantasiatemplate\\fantasiatemplate.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

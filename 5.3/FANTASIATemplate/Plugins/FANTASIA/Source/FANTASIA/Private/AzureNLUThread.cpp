@@ -94,7 +94,7 @@ void AzureNLUThread::StartOneShotRecognition()
 	if (result->Reason == ResultReason::RecognizedIntent)
 	{
 		TSharedPtr<FJsonValue> JsonValue;
-		TSharedRef<TJsonReader<>> Reader = TJsonReaderFactory<>::Create(result->Properties.GetProperty(PropertyId::LanguageUnderstandingServiceResponse_JsonResult).c_str());
+		TSharedRef<TJsonReader<>> Reader = TJsonReaderFactory<>::Create(UTF8_TO_TCHAR(result->Properties.GetProperty(PropertyId::LanguageUnderstandingServiceResponse_JsonResult).c_str()));
 		FString temp = result->Properties.GetProperty(PropertyId::LanguageUnderstandingServiceResponse_JsonResult).c_str();
 		const TSharedPtr<FJsonObject>* FileMessageObject;
 		const TArray<TSharedPtr<FJsonValue>>* arrayField;

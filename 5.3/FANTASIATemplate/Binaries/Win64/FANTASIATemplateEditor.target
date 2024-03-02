@@ -34,6 +34,26 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/FANTASIA/Binaries/Win64/UnrealEditor-FANTASIA.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/FANTASIA/Binaries/Win64/UnrealEditor-FANTASIA.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/FANTASIA/Binaries/Win64/UnrealEditor-FANTASIAEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/FANTASIA/Binaries/Win64/UnrealEditor-FANTASIAEditor.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/FANTASIA/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Win64/AgentInterface.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -3470,6 +3490,42 @@
 		{
 			"Path": "$(ProjectDir)/FANTASIATemplate.uproject",
 			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/FANTASIA/FANTASIA.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/FANTASIA/ThirdParty/Redist/Microsoft.CognitiveServices.Speech.core.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/FANTASIA/ThirdParty/Redist/Microsoft.CognitiveServices.Speech.extension.kws.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/FANTASIA/ThirdParty/Redist/aws-c-common.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/FANTASIA/ThirdParty/Redist/aws-c-event-stream.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/FANTASIA/ThirdParty/Redist/aws-checksums.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/FANTASIA/ThirdParty/Redist/aws-cpp-sdk-core.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/FANTASIA/ThirdParty/Redist/aws-cpp-sdk-polly.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/FANTASIA/ThirdParty/Redist/aws-cpp-sdk-text-to-speech.dll",
+			"Type": "NonUFS"
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/ThirdParty/DbgHelp/dbghelp.dll",

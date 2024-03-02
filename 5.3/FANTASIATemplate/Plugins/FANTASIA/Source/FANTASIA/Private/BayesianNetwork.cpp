@@ -206,9 +206,14 @@ void UBayesianNetwork::addEvidence(FString variable, TArray<float> data)
 
 	auto var = TCHAR_TO_UTF8(*variable);
 
-	if (inference->hasEvidence(var))
-		inference->eraseEvidence(var);
-	inference->addEvidence(var, vec);
+	try {
+		if (inference->hasEvidence(var))
+			inference->eraseEvidence(var);
+		inference->addEvidence(var, vec);
+	}
+	catch (gum::NotFound& e)
+		UE_LOG(LogTemp, Warning, TEXT("%hs from %hs while adding evidence"), e.errorType().c_str(), e.errorContent().c_str());
+
 
 	/*if (variable == "109064338") {
 		for (float v : vec) {
